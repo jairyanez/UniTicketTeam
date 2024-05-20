@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.ResumenPage"
+    BackgroundImage="Background.jpg"
+    Title="Boletos"
+    NavigationPage.HasBackButton="False">
+
+    <NavigationPage.TitleView>
+
+        <StackLayout>
+            <Grid Margin="10,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="https://cdn0.iconfinder.com/data/icons/command-buttons/512/Left-512.png"
+                             Grid.Column="0" Grid.Row="0"
+                             Clicked="Btn_volver"
+                             WidthRequest="32" HorizontalOptions="Start"
+                             BackgroundColor="Transparent"/>
+                <Label Grid.Column="1" Text="Boleto" TextColor="White" FontSize="24" HorizontalOptions="Start"
+                       FontAttributes="Bold"/>
+
+            </Grid>
+            
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#1F293D" Margin="20" Padding="20" CornerRadius="20">
+                 <StackLayout>
+                    <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                       x:Name="txtevento"
+                       Text="Tigres vs Rayados" TextColor="white"
+                       FontSize="25"
+                       FontAttributes="Bold"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    
+
+                    <Label Grid.Row="1" Grid.Column="0" Text="Lugar:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"  x:Name="txtlugar" Text="" TextColor="white" FontSize="16"/>
+
+                    <Label Grid.Row="2" Grid.Column="0"  Text="Fecha:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"  x:Name="txtfecha" Text="" TextColor="white" FontSize="16"/>
+
+                    <Label Grid.Row="3" Grid.Column="0"  Text="Hora:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"  x:Name="txthora" Text="" TextColor="white" FontSize="16"/>
+
+
+                    <Label Grid.Row="4" Grid.Column="0" x:Name="txtasientos" Text="Asientos:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1" x:Name="txtasientosCant" Text="" TextColor="white" FontSize="16"/>
+
+                    <Label Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="2" Text="......................." TextColor="#1A2232" FontSize="60" FontAttributes="Bold" />
+
+
+                    <Label Grid.Row="6" Grid.Column="0" Text="Cantidad:" TextColor="#637394" FontSize="18" FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"  x:Name="txtCantidadBoletos" Text="" TextColor="white" FontSize="18"/>
+
+                    <Label Grid.Row="7" Grid.Column="0" Text="Total:" TextColor="#637394" FontSize="18" FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"  x:Name="txtPrecioTotalCant" Text="" TextColor="white" FontSize="18" FontAttributes="Bold"/>
+                    
+                    
+                </Grid>
+                <Button x:Name="Btn_comprar"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        CornerRadius="10"
+                        BackgroundColor="#FC6D19"
+                        Margin="0,80,0,20"
+                        Padding="20"
+                        WidthRequest="350"
+                        Grid.Row="5" Grid.Column="0" Grid.RowSpan="2"
+                        Clicked="RealizarCompra"
+                        />
+
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

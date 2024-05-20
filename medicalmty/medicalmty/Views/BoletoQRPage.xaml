@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.BoletoQRPage"
+    BackgroundImage="Background.jpg">
+    <ContentPage.Content>
+        
+        <StackLayout >
+            <Frame BackgroundColor="#1F293D" Margin="20" Padding="20" CornerRadius="20">
+                <ScrollView>
+                 <StackLayout Spacing="12">
+
+                    <Label 
+                        Text="¡Gracias por tu Compra!" TextColor="white"
+                        FontSize="25"
+                        FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+
+                    <Frame Padding="20" CornerRadius="12" HorizontalOptions="Center">
+                        <Image x:Name="QRcode"/>
+
+                    </Frame>
+
+                    <Label 
+                        Text="Muestra este codigo al entrar a tu evento" TextColor="#637394"
+                        FontSize="16"
+                        FontAttributes="Italic" HorizontalTextAlignment="Center"/>
+
+                    <Label Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="2" Text="......................." TextColor="#1A2232" FontSize="60" FontAttributes="Bold" />
+                    <Label 
+                        x:Name="txtevento"
+                        Text="Tigres vs Rayados" TextColor="white"
+                        FontSize="18"
+                        FontAttributes="Bold"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        
+
+                    
+
+                        <Label Grid.Row="1" Grid.Column="0" Text="Lugar:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                        <Label Grid.Row="1" Grid.Column="1"  x:Name="txtlugar" Text="" TextColor="white" FontSize="16"/>
+
+                        <Label Grid.Row="2" Grid.Column="0"  Text="Fecha:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                        <Label Grid.Row="2" Grid.Column="1"  x:Name="txtfecha" Text="" TextColor="white" FontSize="16"/>
+
+                        <Label Grid.Row="3" Grid.Column="0"  Text="Hora:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                        <Label Grid.Row="3" Grid.Column="1"  x:Name="txthora" Text="" TextColor="white" FontSize="16"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" x:Name="txtasientos" Text="Asientos:" TextColor="#637394" FontSize="16" FontAttributes="Bold"/>
+                        <Label Grid.Row="4" Grid.Column="1" x:Name="txtasientosCant" Text="" TextColor="white" FontSize="16"/>
+
+                        <Label Grid.Row="6" Grid.Column="0" Text="Cantidad:" TextColor="#637394" FontSize="18" FontAttributes="Bold"/>
+                        <Label Grid.Row="6" Grid.Column="1"  x:Name="txtCantidadBoletos" Text="" TextColor="white" FontSize="18"/>
+
+                        <Label Grid.Row="7" Grid.Column="0" Text="Total:" TextColor="#637394" FontSize="18" FontAttributes="Bold"/>
+                        <Label Grid.Row="7" Grid.Column="1"  x:Name="txtPrecioTotalCant" Text="" TextColor="white" FontSize="18" FontAttributes="Bold"/>
+                    
+                    
+                    </Grid>
+
+                    <Button x:Name="Btn_comprar2"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        CornerRadius="10"
+                        BackgroundColor="#FC6D19"
+                        Margin="0,0,0,20"
+                        Padding="20"
+                        WidthRequest="350"
+                        Text="Volver al Inicio"
+                        Clicked="btnVolverIncio"
+                        />
+                
+
+                </StackLayout>
+                </ScrollView>
+            </Frame>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
+

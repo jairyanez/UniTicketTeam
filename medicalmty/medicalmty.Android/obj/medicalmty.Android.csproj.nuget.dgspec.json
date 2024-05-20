@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty.Android/medicalmty.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty.Android/medicalmty.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty.Android/medicalmty.Android.csproj",
+        "projectName": "medicalmty.Android",
+        "projectPath": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty.Android/medicalmty.Android.csproj",
+        "packagesPath": "/Users/jairym/.nuget/packages/",
+        "outputPath": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/jairym/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {
+              "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/medicalmty.csproj": {
+                "projectPath": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/medicalmty.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/medicalmty.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/medicalmty.csproj",
+        "projectName": "medicalmty",
+        "projectPath": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/medicalmty.csproj",
+        "packagesPath": "/Users/jairym/.nuget/packages/",
+        "outputPath": "/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jairym/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "FirebaseStorage.net": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/jairym/Library/Caches/VisualStudio/17.0/MSBuild/4321_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

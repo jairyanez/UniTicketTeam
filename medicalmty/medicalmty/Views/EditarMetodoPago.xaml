@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.EditarMetodoPago">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid HorizontalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Frame Grid.Row="0"
+                       Padding="20" Margin="20"
+                       HasShadow="True"
+                       HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"
+                       BackgroundColor="#1F293D" CornerRadius="13">
+                    <Grid RowSpacing="20">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            
+                        </Grid.RowDefinitions>
+                        
+                        <StackLayout Grid.Row="0">
+                            <Grid Margin="10,0,20,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="*"/>
+
+                                </Grid.ColumnDefinitions>
+                                <ImageButton Source="https://cdn0.iconfinder.com/data/icons/command-buttons/512/Left-512.png"
+                                             Grid.Column="0" Grid.Row="0"
+                                             WidthRequest="32" HorizontalOptions="Start"
+                                             Clicked="VolverAtras"
+                                             BackgroundColor="Transparent"/>
+
+                                <ImageButton Source="https://cdn-icons-png.flaticon.com/512/323/323711.png"
+                                             Grid.Column="1" Grid.Row="0"
+                                             WidthRequest="25" HorizontalOptions="End"
+                                             Clicked="Btn_eliminarTarjeta"
+                                             BackgroundColor="Transparent"/>
+                                
+                            </Grid>
+
+                            
+                            <Label TextColor="White" Text="Metodo de Pago"
+                                   FontSize="25" HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   FontAttributes="Bold"
+                                   />
+                            
+                            
+                            
+                        </StackLayout>
+                        <Image Grid.Row="1" Source="MetodosPago.png" HeightRequest="100" WidthRequest="200"/>
+
+                        <StackLayout Grid.Row="2" Orientation="Vertical">
+                            <Label TextColor="#B6B6B6" Text="Número de Tarjeta:" FontSize="15"/>
+                            <Entry x:Name="txtNumeroTarjeta" TextColor="White" Keyboard="Numeric" FontSize="18" MaxLength="16"/>
+                        </StackLayout>
+
+                        
+                        <StackLayout  Grid.Row="3">
+                            <Label TextColor="#B6B6B6" Text="Nombre de la persona que aparece en la tarjeta:" FontSize="15"/>
+                            <Entry x:Name="txtNombrePersona" TextColor="White" FontSize="18"/>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="60">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                                <Label TextColor="#B6B6B6" Text="Fecha de Expiración:" FontSize="15"/>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                    <Entry x:Name="txtFechaMessExpiracion" Keyboard="Numeric"
+                                           MaxLength="2" Placeholder="MM" Margin="0" FontSize="18"
+                                           TextColor="White" PlaceholderColor="#637394"  />
+                                    <Entry Text="/" IsReadOnly="True" TextColor="#637394" FontSize="18"/>
+                                    <Entry x:Name="txtFechaAñoExpiracion" Keyboard="Numeric"
+                                           MaxLength="2" Placeholder="YY" Margin="0" TextColor="White"
+                                           PlaceholderColor="#637394" FontSize="18"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Grid.Row="5">
+                                <Label TextColor="#B6B6B6" Text="Código CVV:" FontSize="15"/>
+                                <Entry x:Name="txtCodigoCVV" MaxLength="3" Keyboard="Numeric"
+                                       TextColor="White" Placeholder="123" PlaceholderColor="#637394" FontSize="18" IsPassword="True"/>
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <Button Grid.Row="6" x:Name="btnActualizarTarjeta"
+                                Text="Actualizar Tarjeta" TextColor="White"
+                                FontSize="16" FontAttributes="Bold"
+                                HeightRequest="40" BackgroundColor="#2FB96E"
+                                HorizontalOptions="Center" WidthRequest="200"
+                                ></Button>
+
+                        
+                    </Grid>
+                </Frame>
+            </Grid>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
+

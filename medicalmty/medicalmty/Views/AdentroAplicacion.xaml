@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="medicalmty.Views.AdentroAplicacion"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#1A2232">
+    <ContentPage.Content>
+        <StackLayout Margin="0,20,0,0" >
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout>
+                        <Grid HorizontalOptions="Center" RowSpacing="20" ColumnSpacing="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        
+                        </Grid.ColumnDefinitions>
+
+                        <ImageButton Source="LogoUniTicket_Icon.png"
+                                     Grid.Row="0" Grid.Column="0"
+                                     WidthRequest="50" HeightRequest="0"
+                                     Clicked="ImageButton_Clicked"
+                                     BackgroundColor="Transparent"/>
+
+                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7"
+                            Text="Eventos"
+                            TextColor="WhiteSmoke"
+                            FontSize="23"
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"/>
+
+                        <Frame Padding="0"
+                               Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2"
+                            HeightRequest="50"
+                            WidthRequest="50"
+                            BackgroundColor="White"
+                            CornerRadius="100"
+                            BorderColor="White"
+                            IsClippedToBounds="True"
+                            HorizontalOptions="End">
+                            <Frame.Content>
+                                <ImageButton Source=""
+                                    x:Name="imgFile"
+                                     Clicked="ImageButton_Clicked_6"
+                                     Aspect="AspectFit"
+                                     BackgroundColor="Transparent"/>
+
+                            </Frame.Content>
+
+                        </Frame>
+
+                        </Grid>
+
+                    </StackLayout>
+                    
+                    <StackLayout>
+                        <Grid Grid.Row="3" RowDefinitions="Auto, *" Padding="20" RowSpacing="0" ColumnDefinitions="Auto" >
+                       
+                        <StackLayout Grid.Row="1" Spacing="15">
+
+                            <CollectionView SelectionMode="Single" ItemsSource="{Binding EventosDB}" 
+                                            SelectedItem="{Binding EventoSeleccionado}" SelectionChanged="C_EventoSelected" >
+
+                                <CollectionView.ItemsLayout>
+                                    <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="20" HorizontalItemSpacing="20"/>
+                                </CollectionView.ItemsLayout>
+
+                                <CollectionView.EmptyView>
+                                    <Label Text="No hay Eventos Disponibles" TextColor="Gray" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
+                                </CollectionView.EmptyView>
+
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout Spacing="5">
+                                            <Frame CornerRadius="12" BackgroundColor="Transparent" Padding="0" HeightRequest="260">
+                                                <Image Source="{Binding img}" Aspect="Fill"  
+                                                HorizontalOptions="FillAndExpand"/>
+
+                                            </Frame>
+                                            
+                                            <Label Text="{Binding nombreEvento}" TextColor="White" FontSize="18" FontAttributes="Bold"/>
+                                                <Label Text="{Binding concat_evento}" TextColor="#C1C1C1"  FontSize="15"/>
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+
+                            </CollectionView>
+                        </StackLayout>
+                    </Grid>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+                    <!--
+                    
+                    -->
+
+
+                
+                    <!--
+
+                    <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                 HorizontalOptions="StartAndExpand"
+                                 VerticalOptions="Start">
+                        
+                        <ImageButton Source="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTszQROGCzYNJ6phIiclICxHscW0rwcbAaPlDSriR31uQIP12Rn"
+                                     
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="12"
+                                     WidthRequest="200"/>
+                        <Label Text="Tigres vs Rayados" TextColor="White" FontSize="16" FontAttributes="Bold" />
+                        <Label Text="Evento | 05-May-24" TextColor="#C1C1C1"  FontSize="13"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="4"
+                                 HorizontalOptions="StartAndExpand"
+                                 VerticalOptions="Start"
+>
+                        
+                        <ImageButton Source="https://www.klandmexico.com/wp-content/uploads/2023/05/FuWie1-XoAUg7De.jpg"
+                                     
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="12"
+                                     WidthRequest="200"/>
+                        <Label Text="Saiyan Fest 2024" TextColor="White" FontSize="16" FontAttributes="Bold" />
+                        <Label Text="Exposición | 20-May-24" TextColor="#C1C1C1"  FontSize="13"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"
+                                 HorizontalOptions="StartAndExpand"
+                                 VerticalOptions="Start">
+                        
+                        <ImageButton Source="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiE-qOAo6zLtQkyeyEj8VSpYMrid96tEDSWwyCESkgzKhWGEB7"
+                                     
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="12"
+                                     WidthRequest="200"/>
+                        <Label Text="ExpoFest Pokemon" TextColor="White" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Exposición | 28-Mar-24" TextColor="#C1C1C1"  FontSize="13"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="4"
+                                 HorizontalOptions="StartAndExpand"
+                                 VerticalOptions="Start">
+                        
+                        <ImageButton Source="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY_2H1dsnKs22NPMFurkje5tQ_nFS7UDYovvN5Fqup9_H_gdn3"
+                                     
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="12"
+                                     WidthRequest="200"
+                                     HeightRequest="200"
+                                     />
+                        <Label Text="Ferxxo Monterrey Woo" TextColor="White" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Concierto | 15-Jun-24" TextColor="#C1C1C1"  FontSize="13"/>
+                    </StackLayout>
+
+                     <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"
+                                 HorizontalOptions="StartAndExpand"
+                                 VerticalOptions="Start">
+                        
+                        <ImageButton Source="https://media.ticketmaster.com/tm/en-us/dam/a/5a1/8a2b2555-f152-4fa6-8ef0-9713f6bc25a1_CUSTOM.jpg"
+                                     
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="12"
+                                     WidthRequest="200"
+                                     HeightRequest="200"
+                                     />
+                        <Label Text="Ferxxo Monterrey Woo" TextColor="White" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Concierto | 15-Jun-24" TextColor="#C1C1C1"  FontSize="13"/>
+                    </StackLayout>
+                    -->
+                
+
+            </ScrollView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

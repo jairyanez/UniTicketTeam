@@ -1,0 +1,48 @@
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.csproj.AssemblyReference.cache
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.deps.json
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.dll
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/ref/medicalmty.dll
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.pdb
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/CreacionCuenta.xaml.g.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/InicioSesion.xaml.g.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/startPage.xaml.g.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.AssemblyInfoInputs.cache
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.AssemblyInfo.cs
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.csproj.CoreCompileInputs.cache
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.dll
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/refint/medicalmty.dll
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.pdb
+C:/Users/Ibi Gaspar/Downloads/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/AdentroAplicacion.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.deps.json
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.dll
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/ref/medicalmty.dll
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/bin/Debug/netstandard2.0/medicalmty.pdb
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.csproj.AssemblyReference.cache
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.AssemblyInfoInputs.cache
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.AssemblyInfo.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.csproj.CoreCompileInputs.cache
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.dll
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/refint/medicalmty.dll
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/medicalmty.pdb
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/AdentroAplicacion.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/CreacionCuenta.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/InicioSesion.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/OlvideMiContrasena.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/startPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/ProfilePage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/EditarInfoUsuario.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/EventoPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/BoletosPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/ResumenPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/PagoPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/BoletoQRPage.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/EditarMetodoPago.xaml.g.cs
+/Users/jairym/Desktop/FACPYA/8_SEMESTRE/Desarrollo de Aplicaciones Moviles Multiplataforma/PIA/MedicalMtyApp/medicalmty/medicalmty/obj/Debug/netstandard2.0/Views/HistorialBoletosPage.xaml.g.cs

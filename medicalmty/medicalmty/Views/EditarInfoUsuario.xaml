@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.EditarInfoUsuario"
+    BackgroundImage="Background.jpg">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="Center" Margin="0,30,0,0">
+
+            <ScrollView>
+                <Grid Margin="20" RowSpacing="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="400"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame Padding="0"
+                           Grid.Row="0" 
+                        HeightRequest="180"
+                        WidthRequest="180"
+                        BackgroundColor="White"
+                        CornerRadius="100"
+                        BorderColor="Cyan"
+                        IsClippedToBounds="True"
+                        HorizontalOptions="Center">
+                        <Frame.Content>
+                            <ImageButton Source="iconPerfil.png"
+                                x:Name="imgFile"
+                                 Clicked="subirImagen"
+                                 Aspect="AspectFit"
+                                 BackgroundColor="Transparent"/>
+                        </Frame.Content>
+
+                    </Frame>
+
+                    <Frame Grid.Row="1" BackgroundColor="White" CornerRadius="12" Padding="5" HorizontalOptions="Center" WidthRequest="300">
+                        <Entry x:Name="txtNombre"
+                               Placeholder="Nombre"
+                               PlaceholderColor="Black"
+                               ReturnType="Next"/>
+                    </Frame>
+
+                    <Frame Grid.Row="2" BackgroundColor="White" CornerRadius="12" Padding="5" HorizontalOptions="Center" WidthRequest="300">
+                        <Entry x:Name="txtApellidoP"
+                               Placeholder="Apellido Paterno"
+                               PlaceholderColor="Black"
+                               ReturnType="Next"/>
+                    </Frame>
+
+                    <Frame Grid.Row="3" BackgroundColor="White" CornerRadius="12" Padding="5" HorizontalOptions="Center" WidthRequest="300" >
+                        <Entry x:Name="txtApellidoM"
+                               Placeholder="Apellido Materno"
+                               PlaceholderColor="Black"
+                               ReturnType="Next"/>
+                    </Frame>
+
+                    
+
+
+                    
+                    <Button Text="Confirmar Cambios"
+                            TextColor="WhiteSmoke"
+                            Clicked="Btn_ActualizarInfo"
+                            BackgroundColor="#FC4100"
+                            CornerRadius="13"
+                            HorizontalOptions="Center"
+                            WidthRequest="200"
+                            Grid.Row="5"/>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

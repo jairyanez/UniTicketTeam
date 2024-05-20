@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.ProfilePage"
+    NavigationPage.HasBackButton="False"
+    BackgroundImage="Background.jpg">
+    <NavigationPage.TitleView>
+
+        <StackLayout>
+            <Grid Margin="10,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="https://cdn0.iconfinder.com/data/icons/command-buttons/512/Left-512.png"
+                             Grid.Column="0" Grid.Row="0"
+                             Clicked="volverHomepage"
+                             WidthRequest="32" HorizontalOptions="Start"
+                             BackgroundColor="Transparent"/>
+
+                <ImageButton Source="https://cdn.icon-icons.com/icons2/1155/PNG/512/1486564724-pencil_81530.png"
+                             Grid.Column="1" Grid.Row="0"
+                             Clicked="editarInfo"
+                             WidthRequest="25" HorizontalOptions="End"
+                             BackgroundColor="Transparent"/>
+            </Grid>
+            
+        </StackLayout>
+
+                
+
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" Margin="0,100,0,0" >
+                <StackLayout>
+                    <Frame Padding="0"
+                        HeightRequest="180"
+                        WidthRequest="180"
+                        BackgroundColor="White"
+                        CornerRadius="100"
+                        BorderColor="White"
+                        IsClippedToBounds="True"
+                        HorizontalOptions="Center">
+                        <Frame.Content>
+                            <Image Source="iconPerfil.png" x:Name="imagenPerfil"
+                                    BackgroundColor="Transparent"
+                                    Aspect="AspectFit"/>
+                            
+
+                        </Frame.Content>
+
+                    </Frame>
+
+                </StackLayout>
+                
+
+            <Grid HorizontalOptions="Center" Margin="0,20,0,0" RowSpacing="8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+
+                </Grid.ColumnDefinitions>
+
+                    
+                    
+
+                <Label Grid.Row="0" Text="Nombre"
+                        x:Name="txtNombre"
+                        TextColor="White"
+                        FontSize="25"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"/>
+
+                <Label Grid.Row="1" Text="Email"
+                        x:Name="txtEmail"
+                        TextColor="White"
+                        FontSize="20"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"/>
+
+                <Label Grid.Row="2" Text="Email"
+                        x:Name="txtId"
+                        TextColor="White"
+                        FontSize="20"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"/>
+
+                <!--
+                <StackLayout Grid.Row="5" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical" Spacing="10">
+                        <Button
+                            Text="Historial de Entradas"
+                            HeightRequest="50"
+                            BorderWidth="0"
+                            CornerRadius="15"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            BackgroundColor="#5D0EB6"
+                            Clicked="historialBoletos"
+                            Margin="3"
+                            ></Button>
+                        
+
+                </StackLayout>
+                    -->
+
+                <StackLayout Grid.Row="6" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical" Spacing="10">
+                        <Button
+                            Text="Metodo de Págo"
+                            HeightRequest="50"
+                            BorderWidth="0"
+                            CornerRadius="15"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            BackgroundColor="#CB8100"
+                            Clicked="EditarMetodoPago"
+                            ></Button>
+                        
+
+                </StackLayout>
+
+                <StackLayout Grid.Row="7" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical" Spacing="10">
+                        <Button
+                            Text="Cerrar Sesión"
+                            HeightRequest="50"
+                            Clicked="CerrarSesion"
+                            BorderWidth="0"
+                            CornerRadius="15"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            BackgroundColor="#9E0000"
+                            ></Button>
+                        
+
+                    </StackLayout>
+
+            </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+

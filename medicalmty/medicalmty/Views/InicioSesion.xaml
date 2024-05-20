@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tool="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="medicalmty.InicioSesion" 
+             BackgroundImage="Background.jpg"
+             NavigationPage.HasNavigationBar="True">
+    <ContentPage.Content>
+        <ScrollView>
+                <StackLayout VerticalOptions="Center">
+                <Image HorizontalOptions="Fill" WidthRequest="100" Source="drawable/LogoUniTicket_Icon.png" />
+
+                <Label Text="Iniciar Sesión"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="WhiteSmoke"
+                           FontAttributes="Bold" FontSize="40" Margin="0,20,0,0"/>
+
+                <Label Text="¿No tienes una cuenta?" TextColor="WhiteSmoke" HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Registrate" BackgroundColor="Transparent" TextColor="#1679AB" Clicked="Registrar_Clicked" CornerRadius="20" HorizontalOptions="CenterAndExpand" HeightRequest="40"/>
+
+                <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+                    <Frame BackgroundColor="White" CornerRadius="20" Padding="10" HorizontalOptions="Center" WidthRequest="300" Margin="0,0,0,30">
+                    <Entry x:Name="txtCorreoCelular"
+                           Placeholder=" Correo"
+                           PlaceholderColor="Black"
+                           HeightRequest="40"
+                           TextColor="Black"
+                           Keyboard="Email"
+                           ReturnType="Next"
+                           ClearButtonVisibility="WhileEditing"
+                           MaxLength="30">
+
+                    </Entry>
+
+                </Frame>
+
+                <Frame BackgroundColor="White" CornerRadius="20" Padding="10" HorizontalOptions="Center" WidthRequest="300">
+                    <Entry x:Name="txtpassword" IsPassword="True"
+                       Placeholder="Contraseña"
+                       PlaceholderColor="Black"
+                       HeightRequest="40"
+                       TextColor="Black"
+                       Keyboard="Email"
+                       ReturnType="Next" 
+                       ClearButtonVisibility="WhileEditing"
+                       MaxLength="20"/>
+
+                </Frame>
+
+                </StackLayout>
+                
+
+                <Button Text="¿Olvidaste tu contraseña?" BackgroundColor="Transparent" TextColor="#1679AB" CornerRadius="20"
+                        HorizontalOptions="CenterAndExpand"
+                        Clicked="OlvideMiPass"/>
+                <Button Text="Confirmar"
+                        BackgroundColor="#FC4100"
+                        TextColor="WhiteSmoke"
+                        CornerRadius="20"
+                        HorizontalOptions="Center" WidthRequest="200"
+                        Clicked="EnviarDatos_LogIn"
+                        
+                        />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

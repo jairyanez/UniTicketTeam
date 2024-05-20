@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="medicalmty.startPage"
+             Title="UniTicket"
+             BackgroundImage="Background.jpg"
+             NavigationPage.HasNavigationBar="False">
+             
+    <ContentPage.Content>
+        <!--  <Frame BackgroundColor="#111620">
+                <Label Text="Welcome UniTickest"
+                       TextColor="WhiteSmoke"                   
+                       FontAttributes="Bold"
+                       FontSize="Medium"
+                       TranslationY="20"
+                       HorizontalTextAlignment="Center"/>
+            </Frame> -->
+
+
+        <StackLayout VerticalOptions="Fill">
+            <StackLayout Margin="0,200,0,0">
+                <Image Margin="20,0,0,0" HorizontalOptions="Fill" WidthRequest="400" Source="drawable/LogoUniTicket.png" />
+
+            
+            <Button Text="Sign up now- Registrarte Ahora"
+                    TextColor="White"
+                    BackgroundColor="#FC4100"
+                    VerticalOptions="Center"
+                    Clicked="RegistrarUsuario_Clicked"
+                    Margin="20"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    ></Button>
+
+            <Button Text="Login - Acceso"
+                    TextColor="White"
+                    BackgroundColor="#FC4100"
+                    VerticalOptions="Center"
+                    Clicked="InicioSesion_Clicked"
+                    Margin="20"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    ></Button>
+
+
+            </StackLayout>
+            
+
+            <Label Text="© UniTicket| Jair Moreno| Angeles Barreda| Mauricio Perez| Osvaldo Saucedo| Adrián Gaspar" TextColor="WhiteSmoke"                                      
+                   VerticalOptions="EndAndExpand"
+                   HorizontalTextAlignment="Center" Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

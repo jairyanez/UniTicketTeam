@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{41CF25F6-C5E7-4E60-95AE-0B46F2245384}|Default">
+  <MonoDevelop.Ide.ItemProperties.medicalmty.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.phone_m-dpi_5_4in_-_api_29" Xamarin.HotReload.DebuggerTimeoutException.medicalmty.Android.HideInfoBar="True" Xamarin.HotReload.DebuggerException.medicalmty.Android.HideInfoBar="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="medicalmty" expanded="True">
+            <Node name="medicalmty" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="AdentroAplicacion.xaml" expanded="True" />
+                <Node name="BoletoQRPage.xaml" expanded="True" />
+                <Node name="BoletosPage.xaml" expanded="True" />
+                <Node name="CreacionCuenta.xaml" expanded="True" />
+                <Node name="EditarInfoUsuario.xaml" expanded="True" />
+                <Node name="EditarMetodoPago.xaml" expanded="True" />
+                <Node name="EventoPage.xaml" expanded="True" />
+                <Node name="HistorialBoletosPage.xaml" expanded="True" />
+                <Node name="InicioSesion.xaml" expanded="True" />
+                <Node name="OlvideMiContrasena.xaml" expanded="True">
+                  <Node name="OlvideMiContrasena.xaml.cs" selected="True" />
+                </Node>
+                <Node name="PagoPage.xaml" expanded="True" />
+                <Node name="ResumenPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="medicalmty.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/jairym/Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/xamarin/Xamarin.Forms/7958ff904a0ca058fb9c76915aaeb4f6c7ef9a54</String>
+  </Debugger.DebugSourceFolders>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.phone_m-dpi_5_4in_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

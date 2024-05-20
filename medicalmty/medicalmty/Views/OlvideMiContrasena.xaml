@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.OlvideMiContrasena"
+    BackgroundImage="Background.jpg"
+    >
+    <ContentPage.Content >
+        <StackLayout Margin="20" >
+            <Image Source="https://icones.pro/wp-content/uploads/2022/08/icone-de-cadenas-de-securite-orange.png" HeightRequest="80" Margin="0,5"/>
+            <Label Text="¿Olvidaste tu contrasea?" TextColor="WhiteSmoke" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0" FontSize="Medium" FontAttributes="Bold"/>
+            <Label Text="¡No te preocupes! Todos olvidamos nuestras contraseñas de vez en cuando. Ingresa tu dirección de correo electrónico asociada a tu cuenta y te ayudaremos a restablecerla." TextColor="WhiteSmoke" HorizontalTextAlignment="Center" Margin="10,5" Opacity=".5"/>
+            <Frame CornerRadius="10" Margin="10" BackgroundColor="WhiteSmoke">
+                <Entry x:Name="txtCorreo" Placeholder=" Email" PlaceholderColor="#111620" HeightRequest="40" TextColor="#111620" BackgroundColor="WhiteSmoke"
+                       Keyboard="Email"/>
+            </Frame>
+            <Button x:Name="button_resetPass" Text="Confirmar" BackgroundColor="#FC4100" TextColor="WhiteSmoke" CornerRadius="20" Margin="0,0,0,0"
+                    Clicked="Reset_Password" HorizontalOptions="CenterAndExpand" WidthRequest="180"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="medicalmty.Views.HistorialBoletosPage"
+    BackgroundImage="Background.jpg"
+    NavigationPage.HasBackButton="False">
+    <NavigationPage.TitleView>
+
+        <StackLayout>
+            <Grid Margin="10,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="https://cdn0.iconfinder.com/data/icons/command-buttons/512/Left-512.png"
+                             Grid.Column="0" Grid.Row="0"
+                             Clicked="volverHomepage"
+                             WidthRequest="32" HorizontalOptions="Start" VerticalOptions="Center" 
+                             BackgroundColor="Transparent"/>
+            </Grid>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowDefinitions="Auto, Auto" Padding="20" RowSpacing="0" ColumnDefinitions="Auto" >
+                       
+                <StackLayout Grid.Row="1" Spacing="15">
+
+                    <CollectionView x:Name="BoletosList" SelectionMode="Single" ItemsSource="{Binding tickets}"
+                                    SelectedItem="{Binding BoletoSeleccionado}" SelectionChanged="C_BoletoSelected"  BackgroundColor="#1A2232">
+
+                        <CollectionView.EmptyView>
+                            <Label Text="Aún no has comprado Boletos" TextColor="Gray" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
+                        </CollectionView.EmptyView>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Spacing="0" BackgroundColor="Aqua" Padding="10" HeightRequest="500">
+                                    <Frame CornerRadius="12" BackgroundColor="Gray" Padding="10">
+                                        
+                                        <Grid HeightRequest="400">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="0.3*"/>
+                                                <ColumnDefinition Width="0.7*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="100"/>
+                                                <RowDefinition Height="0.5*"/>
+
+
+                                            </Grid.RowDefinitions>
+
+                                            <Image Source="{Binding ev}"
+                                                   Grid.RowSpan= "2"/>
+
+                                            <Label Grid.Column="1"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Large"
+                                                   Text="{Binding GUID}"
+                                                   VerticalOptions="Center"/>
+
+                                            <Label Grid.Row="1"
+                                                   Grid.Column="1"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   Text="{Binding precio}"/>
+
+                                            <Label x:Name="pruebahtxt"
+                                                Grid.Row="2"
+                                                   Grid.Column="1"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   Text="{Binding evento}"/>
+                                        </Grid>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
+                </StackLayout>
+            </Grid>
+
+        </StackLayout>
+            
+        
+    </ContentPage.Content>
+</ContentPage>
+
